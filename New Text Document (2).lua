@@ -81,7 +81,7 @@ function Library.Main(Text, PARENT, keycode)
 	NameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 	NameLabel.TextSize = 19
 	NameLabel.TextXAlignment = Enum.TextXAlignment.Left
-	NameLabel.Text = Text .. ' | Key System' -- give credits to owner ui lib
+	NameLabel.Text = Text .. '' -- give credits to owner ui lib
 
 	ImageButton.Parent = Topbar
 	ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
